@@ -56,6 +56,11 @@ const Hero = () => {
         ".overlay-logo",
         {
           opacity: 1,
+          onComplete: () => {
+            gsap.to(".overlay-logo", {
+              opacity: 0,
+            });
+          },
         },
         "<"
       )
