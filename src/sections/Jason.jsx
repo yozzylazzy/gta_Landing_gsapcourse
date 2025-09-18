@@ -36,7 +36,7 @@ const Jason = () => {
       },
       "<" // start at the same time as previous animation
     );
-  });
+  }, []);
 
   return (
     <section className="jason">
