@@ -12,7 +12,6 @@ const Lucia = () => {
           start: "top 80%",
           end: "10% center",
           scrub: 2,
-          markers: true,
         },
       })
       .to(".second-vd", {
@@ -29,7 +28,6 @@ const Lucia = () => {
           start: "top center",
           end: "80% center",
           scrub: 2,
-          markers: true,
         },
         y: -200,
         duration: 1,
@@ -67,7 +65,6 @@ const Lucia = () => {
           <img src="/images/lucia-2.webp" />
         </div>
 
-        {/* Additional paragraph for mobile + wide screens */}
         <p className="max-w-xl lg:ps-32 ps-10">
           More than anything, Lucia wants the good life her mom has dreamed of
           since their days in Liberty City — but instead of half-baked
