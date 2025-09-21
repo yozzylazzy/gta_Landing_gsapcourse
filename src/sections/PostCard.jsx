@@ -14,6 +14,18 @@ const PostCard = () => {
         scrub: true,
       },
     });
+
+    videoRef.current.onloadedmetadata = () => {
+      tl.to(
+        videoRef.current,
+        {
+          currentTime: videoRef.current.duration,
+          duration: 3,
+          ease: "power1.inOut",
+        },
+        "<"
+      );
+    };
   }, []);
 
   return (
@@ -27,6 +39,7 @@ const PostCard = () => {
           ref={videoRef}
           muted
           playsInline
+          autoPlay
           preload="auto"
           src="/videos/postcard-vd.mp4"
         />

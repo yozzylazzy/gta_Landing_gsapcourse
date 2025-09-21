@@ -11,7 +11,7 @@ const Jason = () => {
           start: "top 90%",
           end: "10% center",
           scrub: 2,
-          markers: true,
+          // markers: true,
         },
       })
       .to(".first-vd", {
@@ -28,7 +28,7 @@ const Jason = () => {
           start: "top center",
           end: "80% center",
           scrub: 2,
-          markers: true,
+          // markers: true,
         },
         y: -300,
         duration: 1,

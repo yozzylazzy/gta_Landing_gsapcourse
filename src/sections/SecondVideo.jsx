@@ -16,7 +16,7 @@ const SecondVideo = () => {
         end: "bottom top",
         scrub: 2,
         pin: true,
-        markers: true,
+        // markers: true,
       },
     });
 
